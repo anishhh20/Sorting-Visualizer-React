@@ -1,0 +1,52 @@
+.bar {
+	background: white;
+	width: 25px;
+	height: 200px;
+	margin: 0 1em;
+	border-radius: 3px;
+}
+
+.input {
+	outline: none;
+	color: hsl(0, 0%, 20%);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* For Firefox  */
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+
+.quantity-button {
+	/* user-select: none; */
+	background: none;
+	border: none;
+}
+
+.quantity-nav{
+	display: flex;
+	flex-direction: column;
+}
+
+.span_styles{
+	color: white;
+	transition: all .7s ease-in;
+	pointer-events: none;
+	user-select: none;
+}
+
+.MuiFormGroup-root{
+	flex-wrap: nowrap !important;
+	flex-direction: row !important;
+}
+
+.MuiFormLabel-root{
+	color: hsl(0, 0%, 20%) !important;
+}
