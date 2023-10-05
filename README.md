@@ -31,8 +31,8 @@ The app is already deployed so you can play around with the final product using 
 If you wish to run this app locally, clone this repo and install the dependencies.
 
 ```
-$ git clone https://github.com/ramiz-rahman/sort-visualizer.git
-$ cd sort-visualizer
+$ git clone https://github.com/anishhh20/Sorting-Visualizer-React.git
+$ cd Sorting-Visualizer-React
 $ npm install
 ```
 
